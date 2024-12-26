@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tv_total_penjualan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Penjualan"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_total_pembelian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Pembelian"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_total_barang_keluar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Barang Keluar"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_total_barang_masuk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Barang Masuk"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
